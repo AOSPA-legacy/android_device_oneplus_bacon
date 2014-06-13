@@ -50,6 +50,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=20
 
+# Do not power down SIM card when modem is sent to Low Power Mode.
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.apm_sim_not_pwdn=1 \
+    persist.radio.eons.enabled=false
+
+# Ril
+PRODUCT_PROPERTY_OVERRIDES += \
+    rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so \
+    ril.subscription.types=NV,RUIM \
+    ro.telephony.ril_class=OppoRIL
+
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/bacon/bacon-vendor.mk)
 
