@@ -12,6 +12,12 @@
         "revision":    "bacon"
     },
     {
+        "remote":      "github",
+        "repository":  "AOSPA-legacy/android_device_oppo_common",
+        "target_path": "device/oppo/common",
+        "revision":    "kitkat"
+    },
+    {
         "remote":       "cm",
         "repository":   "CyanogenMod/android_hardware_qcom_bt",
         "target_path":  "hardware/qcom/bt",
