@@ -9,7 +9,7 @@
         "remote":      "github",
         "repository":  "AOSPA-legacy/android_device_oppo_msm8974-common",
         "target_path": "device/oppo/msm8974-common",
-        "revision":    "bacon"
+        "revision":    "kitkat"
     },
     {
         "remote":      "github",
@@ -19,9 +19,9 @@
     },
     {
         "remote":       "github",
-        "repository":   "CyanogenMod/android_device_qcom_common",
+        "repository":   "AOSPA-legacy/android_device_qcom_common",
         "target_path":  "device/qcom/common",
-        "revision":     "cm-11.0"
+        "revision":     "kitkat"
     },
     {
         "remote":      "github",
