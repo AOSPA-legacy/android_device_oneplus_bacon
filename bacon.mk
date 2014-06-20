@@ -20,6 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay vendor/extra/overlays/phone-108
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Voice WakeUp
+PRODUCT_COPY_FILES += \
+    device/oneplus/bacon/prebuilt/VoiceWakeup.apk:system/app/VoiceWakeup.apk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.bacon \
