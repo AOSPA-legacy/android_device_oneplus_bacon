@@ -25,9 +25,9 @@
     },
     {
         "remote":      "github",
-        "repository":  "AOSPA-legacy/android_frameworks_opt_connectivity",
-        "target_path": "frameworks/opt/connectivity",
-        "revision":    "lollipop"
+        "repository":  "CyanogenMod/android_frameworks_opt_hardware",
+        "target_path": "frameworks/opt/hardware",
+        "revision":    "cm-12.0"
     },
     {
         "remote":      "blobs",
