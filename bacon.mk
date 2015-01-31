@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_CONTINUOUS_SPLASH_ENABLED := true
+
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay vendor/extra/overlays/phone-1080p
 
